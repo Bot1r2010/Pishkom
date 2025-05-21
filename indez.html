@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .title {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 30px;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .form-control {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 500px;
+      margin: 100px auto;
+      border: 1px solid #ccc;
+    }
+    .form {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .number {
+      width: 70%;
+    }
+
+    .btn {
+      width: 120px;
+    }
+
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      background-color: #f0f0f0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+
+    i {
+      font-size: 50px;
+    }
+  </style>
+  <body>
+    <h1 class="title">Kim birinchi borishga</h1>
+
+    <div class="form-control">
+      <form class="form">
+        <input
+          value="100"
+          class="number"
+          type="number"
+          placeholder="masofani kiriting"
+        />
+        <input class="btn" type="submit" value="Hisobla" />
+      </form>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <i class="ri-team-fill"></i>
+        <h2>Odam</h2>
+        <p class="person">N soat</p>
+      </div>
+      <div class="card">
+        <i class="ri-motorbike-fill"></i>
+        <h2>Velo</h2>
+        <p class="velo">N soat</p>
+      </div>
+      <div class="card">
+        <i class="ri-car-fill"></i>
+        <h2>Moshina</h2>
+        <p class="moshina">N soat</p>
+      </div>
+      <div class="card">
+        <i class="ri-flight-land-line"></i>
+        <h2>Samalyot</h2>
+        <p class="samalyot">N soat</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
